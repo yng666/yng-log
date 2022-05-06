@@ -1,0 +1,26 @@
+{
+    "name": "yng/log",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yng"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yng\\Log\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "monolog/monolog": "^2.3",
+        "psr/log": "^1.0"
+    },
+    "extra": {
+        "yng": {
+            "config": {
+                "log": "publish/logger.php"
+            }
+        }
+    }
+}
